@@ -1,0 +1,65 @@
+[
+  {
+    "description": "    Acessar o site da globo",
+    "keyword": "Feature",
+    "name": "Globo",
+    "line": 1,
+    "id": "globo",
+    "tags": [],
+    "uri": "features\\Globo.feature",
+    "elements": [
+      {
+        "id": "globo;cadastrar-um-empresa-do-tipo-interna",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Cadastrar um empresa do tipo interna",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "cucumber.conf.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9000000000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "acesso a pagina da globo",
+            "match": {
+              "location": "steps\\globo.js:6"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 20596000000000000,
+              "error_message": "Error while running \"waitForElementVisible\" command: Timed out while waiting for element <#busca-campo> to be present for 10000 milliseconds. - expected \u001b[0;32m\"visible\"\u001b[0m but got: \u001b[0;31m\"not found\"\u001b[0m\n    at Proxy.with (C:\\qaninja\\SmartEnergyTestCucumber05\\pages\\globo.js:5:14)\n    at World.<anonymous> (C:\\qaninja\\SmartEnergyTestCucumber05\\steps\\globo.js:7:22)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "cucumber.conf.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 299000000000000
+            },
+            "embeddings": [
+              {
+                "data": "null",
+                "mime_type": "image/png"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
